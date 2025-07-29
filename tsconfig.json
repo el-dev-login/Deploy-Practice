@@ -1,11 +1,5 @@
 {
-  /*
-   * TypeScript Configuration - Main compiler settings for the project
-   * 
-   * This file configures how TypeScript compiles the React application code.
-   * It's needed to define type checking rules, module resolution, JSX handling, and path mapping.
-   * Essential for development with TypeScript to ensure proper compilation and IDE support.
-   */
+
   "compilerOptions": {
     "target": "ES2020",
     "useDefineForClassFields": true,
@@ -13,7 +7,7 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
-    /* Bundler mode */
+ 
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
@@ -21,13 +15,13 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
-    /* Linting */
+
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    /* Path mapping */
+
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
